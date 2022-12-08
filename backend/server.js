@@ -19,13 +19,14 @@ app.use('/api/workouts', workoutRoutes)
 
 // connect to db
 mongoose.connect(process.env.DATABASE_URL)
-.then(() => {})
+.then(() => {
+// listen for requests
+app.listen(process.env.PORT, () => {
+    console.log('connected to db & on port', process.env.PORT)
+})
+})
 .catch((error) => {
     console.log(error)
 })
 
 
-// listen for requests
-app.listen(process.env.PORT, () => {
-    console.log('on port', process.env.PORT)
-})
