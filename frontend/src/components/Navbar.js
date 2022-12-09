@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <header>
       <div className="container">
-        <Link ro="/">
+        <Link to="/">
           <h1>Power Hour</h1>
         </Link>
         <nav>
