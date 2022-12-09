@@ -17,13 +17,13 @@ A workout tracking app that allows the user to enter workouts they have complete
 - React
 
 ## Trello
-[Trello]()
-
-## EDR
-![EDR]()
+[Trello](https://trello.com/b/fe68G3SE/project-3)
 
 ## WireFrame
-[WireFrame]()
+[WireFrame](images/powerhour.jpg)
+
+## EDR
+![EDR](images/powerhourERD.png)
 
 ## User Stories
 AAU, I want to...
@@ -38,3 +38,4 @@ AAU, I want to...
 ## Future Updates
 
 - Add more workout related information i.e calories burned, etc
+- Add a search functionality to view workouts once many have been entered
