@@ -5,6 +5,9 @@
 
 A workout tracking app that allows the user to enter workouts they have completed.
 
+![screenshot](images/loginpage.png)
+![screenshot](images/loggedin.png)
+
 ### Technologies Used
 
 - JWT
