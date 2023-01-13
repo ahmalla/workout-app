@@ -21,14 +21,14 @@ app.use('/api/user', userRoutes)
 
 // connect to db
 mongoose.connect(process.env.DATABASE_URL)
-.then(() => {
+// .then(() => {
 // listen for requests
-app.listen(process.env.PORT, () => {
-    console.log('connected to db & on port', process.env.PORT)
-})
-})
-.catch((error) => {
-    console.log(error)
-})
+// app.listen(process.env.PORT, () => {
+//     console.log('connected to db & on port', process.env.PORT)
+// })
+// })
+// .catch((error) => {
+//     console.log(error)
+// })
 
 
